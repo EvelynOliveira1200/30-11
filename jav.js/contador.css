@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e8cfc1;
+
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    height: 100vh;
+    gap: 20px;
+}
+.container h1{
+    border-bottom: 1px solid #0000;
+    font-size: 50px;
+}
+.container #valor{
+    font-size: 60px;
+}
+button{
+    width: 250px;
+    height: 50px;
+    font-size: 25px;
+    background-color: black;
+    color: #dd7234;
+}
